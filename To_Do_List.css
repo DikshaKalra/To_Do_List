@@ -1,0 +1,30 @@
+* {
+background-color: #ddffcc;
+}
+body {
+    border-width:5px;
+    border-style:dashed;
+}
+
+
+ul li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: square;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+ul li:nth-child(odd) {
+  background: #99e6e6;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+#btn
+{
+background-color:#b3b3ff;}
+#btn:hover {
+  background: #ddd;
+}
